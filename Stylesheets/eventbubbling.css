@@ -1,0 +1,45 @@
+html{
+    box-sizing:border-box;
+    font-size:16px;
+    font-family:"Georgia";
+    color:white;
+}
+
+body{
+    max-width:700px;
+    text-align:center;
+    background:#ffffff;
+    margin:25px auto;
+    background:#87ceeb;
+}
+
+div.one{
+    height:500px;
+    width:600px;
+    background:#ffff00;
+    padding:2rem;
+
+}
+
+
+div.two{
+    height: 300px;
+    width:400px;
+    background:#ffc0cb;
+    padding:3rem;
+    margin:2rem;
+
+}
+
+div.three{
+    height:100px;
+    width:200px;
+    background:#ff7f50;
+    padding:2rem;
+    margin:3rem;
+}
+
+
+div.three button{
+    margin:2rem;
+}

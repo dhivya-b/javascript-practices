@@ -1,0 +1,58 @@
+html{
+    font-size:16px;
+    font-family:"Georgia";
+}
+
+body{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.content{
+    max-width:700px;
+    margin:2rem auto;
+    padding:2rem;
+    text-align:justify;
+
+}
+
+.imgleft{
+    float:left;
+    height:200px;
+    margin-right: 1rem;
+}
+
+
+.imgright{
+    float:right;
+    height:200px;
+    margin-left:1rem;
+}
+
+
+.clearfix::after{
+    clear:both;
+}
+
+
+.slide-in{
+    opacity:0;
+    transition:all 0.5s;
+}
+
+.imgleft.slide-in{
+    transform:translateX(-30%) scale(1);
+}
+
+
+.imgright.slide-in{
+    transform:translateX(30%) scale(1);
+}
+
+.slide-in.active{
+    opacity:1;
+    transform:translateX(0%) scale(1);
+    
+}

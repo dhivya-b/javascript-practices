@@ -1,0 +1,66 @@
+html{
+box-sizing:border-box;
+font-size:16px;
+
+
+
+}
+
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+.layout{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+   
+
+}
+
+
+
+table{
+    border:1px solid #cccccc;
+    margin:0 auto;
+    border-collapse:collapse;
+    box-shadow:3px 2px 10px rgba(0,0,0,0.2);
+
+}
+
+tbody tr,td{
+    border:1px solid #cccccc;
+}
+
+.check{
+    padding:1rem;
+  
+}
+
+.check input{
+    box-shadow:3px 2px 5px rgba(0,0,0,0.1); 
+}
+.item{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+input:checked tr{
+    text-decoration: line-through;
+    background: #f9f9f9;
+
+}
+
+.textDecor{
+    text-decoration: line-through;
+    background: #f9f9f9;
+
+}
+
+
+#sample:checked + p{
+    font-size:3rem;
+}

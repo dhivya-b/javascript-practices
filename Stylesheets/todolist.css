@@ -1,0 +1,104 @@
+body{
+    font-family:"Georgia";
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+tbody input{
+    padding:10px;
+    width:100%;
+    background:#ebebe0;
+    margin:0;
+    box-sizing: border-box;
+    color:steelblue;
+    border:none;
+    font-size:15px;
+}
+
+ tbody input:focus{
+     outline:none;
+} 
+
+.inputMode{
+    background:#ffffff;
+    outline:none;
+}
+
+.inputParentmode{
+    background: #ffffff;
+     border:1px solid steelblue;
+}
+
+table{
+    border-collapse:collapse;
+    margin:10% auto 0 auto; 
+    width:300px; 
+    box-shadow:0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+td,th:not(#newTodo)
+{
+    border:1px solid #dddddd;
+    padding:10px;
+    text-align:left;
+   
+}   
+
+tr:nth-child(odd){
+    background: #ebebe0;
+}
+
+tr:nth-child(even){
+    background: #ffffff;
+}
+
+table thead th{
+    background:steelblue;
+    color:#ffffff;
+    font-weight:normal;
+}
+table thead i{
+    float:right;
+}
+
+span{
+    display:none;
+   
+}
+
+/* td:hover span{
+    display:inline-block;
+    width:40px;
+    background:#e74c3c;
+    color:#ffffff;
+    text-align:center;
+    margin-left:0;
+    height:100%;
+} */
+
+.trash{
+    display:inline-block;
+    width:40px;
+    background:#e74c3c;
+    color:#ffffff;
+    text-align:center;
+    margin-left:0;
+    height:100%;
+    /* transition:all 2.0s linear; */
+}
+
+.todoDecor{
+    color:#999966;
+    text-decoration:line-through;
+}
+
+
+
+.clearfix:after{
+    display:block;
+    content:" ";
+    clear:both;
+}
+

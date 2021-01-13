@@ -1,0 +1,29 @@
+  <!DOCTYPE html>
+
+  <html>
+        <head>
+            <title>CssVariables updating with JS</title>
+            <meta  charset="utf-8"> 
+            <link rel="stylesheet" href="Stylesheets/CssVariables.css">
+
+        </head>
+
+
+        <body>
+
+            <h1>Updating CSS Variables with <span>JS</span> </h1>
+            <div >
+                <label for="Spacing">Spacing</label>
+                <input class="inputRange" type="range" id="Spacing" name="spacing"  min="0"  max="50" data-sizing="px">
+                <label for="Blur">Blur</label>
+                <input class="inputRange" type="range" id="Blur"  name="blur" min="0" max="50" data-sizing="px">
+                <label for="Color">BaseColor</label>
+                <input class="inputRange" type="color" id="base" name="Color" >
+                <img src="images/pattern.jpg" alt="image" height="500px"  width="500px">
+            </div>
+            
+
+        </body>
+        <script src="js/CssVariables.js"></script>
+
+  </html>
